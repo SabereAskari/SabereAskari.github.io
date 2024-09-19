@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "B Nazanin";
+    src: url(assets/font/B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background/sea-7301366_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "B Nazanin";
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "B Nazanin";
+}
+
+
+/* .contaner .myImage {
+    min-width: fit-content;
+    min-height: fit-content;
+} */
+
+.contaner .myImage img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50% 50%;
+    border-color: #ffc3af;
+    border-width: 5px;
+}
+
+.contaner .name {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.contaner .info {
+    font-family: "B Nazanin";
+    font-size: large;
+    font-weight: 500;
+}
+
+.contaner .resume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.resumeBackground {
+    background-color: rgba(229, 113, 113, 0.599);
+    /* rgba(163, 118, 118, 0.599); */
+    font-family: "B Nazanin";
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    border-radius: 15px;
+}
+
+.resumeBackground img {
+    width: 50px;
+    height: 50px;
+}
+
+.contaner .media {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 70px; */
+}
+
+.contaner .media img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.contaner .media ul li {
+    list-style: none;
+    text-decoration: none;
+}
