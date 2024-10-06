@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "B Nazanin";
+    src: url(assets/font/B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background/sea-7301366_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "B Nazanin";
+    direction: rtl;
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "B Nazanin";
+}
+
+.contaner h1 {
+    font-size: larger;
+    color: rgb(10, 75, 35);
+    font-weight: 800;
+}
+
+.contaner form.contactForm {
+    display: flex;
+    flex-direction: column;
+    color: rgb(56, 53, 53);
+    /* height: 600px;
+    width: 400; */
+}
+
+.contaner form.contactForm input {
+    border-radius: 10px;
+    border-color: rgb(250, 235, 215);
+    box-shadow: none;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(250, 235, 215);
+}
+
+.contaner form.contactForm .textM {
+    border-radius: 10px;
+    border-color: rgb(250, 235, 215);
+    box-shadow: none;
+    height: 30px;
+    background-color: rgb(250, 235, 215);
+    height: 100px;
+    text-align: start;
+    overflow: auto;
+    font-size: medium;
+}
+
+.contaner form.contactForm .submitM {
+    background-color: rgb(12, 97, 39);
+    color: beige;
+    border-color: rgb(12, 97, 39);
+    margin-top: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 30px 5px 30px;
+    align-self: center;
+}
