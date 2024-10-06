@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "B Nazanin";
+    src: url(assets/font/B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background/sea-7301366_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "B Nazanin";
+    direction: rtl;
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "B Nazanin";
+}
+
+p {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.tik {
+    max-height: 300px;
+    max-width: 300px;
+    fill: rgb(0, 113, 11);
+}
